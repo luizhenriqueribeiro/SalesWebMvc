@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos C# Avancado\\SalesWEbMvc\\SalesWEbMvc\\SalesWEbMvc.csproj": {}
+    "D:\\Projetos C# Avancado\\SalesWebMvc\\SalesWEbMvc\\SalesWEbMvc.csproj": {}
   },
   "projects": {
-    "D:\\Projetos C# Avancado\\SalesWEbMvc\\SalesWEbMvc\\SalesWEbMvc.csproj": {
+    "D:\\Projetos C# Avancado\\SalesWebMvc\\SalesWEbMvc\\SalesWEbMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos C# Avancado\\SalesWEbMvc\\SalesWEbMvc\\SalesWEbMvc.csproj",
+        "projectUniqueName": "D:\\Projetos C# Avancado\\SalesWebMvc\\SalesWEbMvc\\SalesWEbMvc.csproj",
         "projectName": "SalesWEbMvc",
-        "projectPath": "D:\\Projetos C# Avancado\\SalesWEbMvc\\SalesWEbMvc\\SalesWEbMvc.csproj",
+        "projectPath": "D:\\Projetos C# Avancado\\SalesWebMvc\\SalesWEbMvc\\SalesWEbMvc.csproj",
         "packagesPath": "C:\\Users\\ecxes\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos C# Avancado\\SalesWEbMvc\\SalesWEbMvc\\obj\\",
+        "outputPath": "D:\\Projetos C# Avancado\\SalesWebMvc\\SalesWEbMvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
